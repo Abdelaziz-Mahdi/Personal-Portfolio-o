@@ -1,0 +1,1215 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: auto;
+}
+
+#mainHeader {
+  display: flex;
+  justify-content: space-between;
+  height: 74px;
+}
+
+#mainHeader ul {
+  display: none;
+}
+
+.headerv {
+  background-image: url("https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/geometry_1.png");
+  background-color: white;
+  background-position: left;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  height: inherit;
+  width: 111px;
+}
+
+#footerHeader {
+  display: flex;
+  justify-content: space-between;
+  height: 74px;
+}
+
+.footerHeader {
+  background-image: url("https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/geometry_1.png");
+  background-color: white;
+  background-position: left;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  height: inherit;
+  width: 111px;
+}
+
+.strip {
+  width: 20px;
+  height: 2px;
+  background-color: black;
+  margin: 6px;
+}
+
+.menu {
+  height: 100%;
+  padding: 0;
+  margin-top: 19px;
+  margin-right: 16px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.firstSection {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
+.midSection {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 30px;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.midHeader {
+  margin-top: 0;
+  margin-right: 68px;
+  margin-bottom: 0;
+}
+
+.worksHeader {
+  margin-top: 39.9px;
+  margin-left: 16px;
+  margin-right: 123px;
+  margin-bottom: 32px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+}
+
+.pMidSection {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  background-color: #1a2236;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.startCoText {
+  display: flex;
+  justify-content: center;
+  border: none;
+  padding-left: 42px;
+  padding-right: 42px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: -webkit-fill-available;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+  filter: invert(100%);
+  border: 1px solid white;
+}
+
+.btn:active {
+  background-color: black;
+  color: white;
+  filter: invert(100%);
+  border: 2px solid white;
+}
+
+.foterv {
+  display: flex;
+  background-image: url("https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/image_geometry_2.png");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: top;
+  margin-top: 32px;
+  height: 160px;
+  width: 100%;
+}
+
+.works {
+  display: grid;
+  grid-template-columns: auto;
+  width: inherit;
+}
+
+.projectsContainer {
+  display: grid;
+  grid-template-columns: auto;
+  width: inherit;
+}
+
+.firstProj {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  width: inherit;
+  border: none;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: inherit;
+  margin: 0;
+  border: none;
+}
+
+.img {
+  width: 100%;
+  display: flex;
+  justify-self: flex-start;
+  align-self: stretch;
+  margin: 0;
+  object-fit: cover;
+  border: none;
+}
+
+.infoBox {
+  background-color: #1a2236;
+  margin: 0;
+  border: 0;
+  border: none;
+}
+
+h3 {
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 80%;
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 36px;
+  margin-bottom: 16px;
+}
+
+.langList {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #1a2236;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80%;
+  font-size: 10.3334px;
+}
+
+.lang1 {
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  flex-grow: 1;
+  background-color: #98dede;
+  color: #1a2236;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.lang2 {
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  flex-grow: 1;
+  margin-right: 10px;
+  background-color: #98dede;
+  color: #1a2236;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.lang3 {
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  flex-grow: 1;
+  background-color: #98dede;
+  color: #1a2236;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-right: 50px;
+}
+
+.btnProj {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  background-color: #1a2236;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.btnText {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.btnIcon {
+  display: flex;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 13.95px;
+}
+
+.aboutSection {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  margin-top: 56px;
+  margin-bottom: 20px;
+  margin-right: 16px;
+}
+
+.aboutHeader {
+  margin-right: 155px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.pabout {
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.myCv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: none;
+  background-color: #1a2236;
+  margin-bottom: 40px;
+  padding: 0;
+  width: 100%;
+}
+
+.btnTextGet {
+  margin-left: 79px;
+  margin-bottom: 13px;
+  margin-top: 13px;
+}
+
+.btnIconDownload {
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 13px;
+  margin-top: 13px;
+  margin-right: 79px;
+}
+
+#aboutP2 {
+  order: 1;
+  display: grid;
+  grid-template-columns: auto;
+  width: inherit;
+}
+
+.aboutCards {
+  margin-bottom: 16px;
+  background-color: #1c528a;
+  background-image: url(https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/ic_HT.png);
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  height: 289px;
+  width: inherit;
+}
+
+.framworksCard {
+  margin-bottom: 16px;
+  background-color: #e2505c;
+  background-image: url(https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/ic_rectangle.png);
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  height: 289px;
+  width: inherit;
+}
+
+.skillsCard {
+  margin-bottom: 16px;
+  background-color: #febf52;
+  background-image: url(https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/ic_skills.png);
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  height: 289px;
+  width: inherit;
+}
+
+.langCardHeader,
+.skillCardHeader,
+.framworksCardHeader {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+}
+
+.langCardHeader {
+  margin-top: 50px;
+  margin-bottom: 21px;
+  margin-left: 50px;
+  margin-right: 123px;
+}
+
+.framworksCardHeader {
+  margin-top: 50px;
+  margin-bottom: 21px;
+  margin-left: 50px;
+  margin-right: 107px;
+}
+
+.skillCardHeader {
+  margin-top: 50px;
+  margin-bottom: 21px;
+  margin-left: 50px;
+  margin-right: 184px;
+}
+
+.langCardList,
+.framworksCardList,
+.skillCardList {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  color: white;
+  padding: 0;
+  list-style: none;
+}
+
+.langCardList {
+  margin-left: 50px;
+  margin-bottom: 53px;
+  margin-right: 61px;
+}
+
+.laCardListItem::before {
+  content: "•";
+  padding-right: 5px;
+  color: white;
+}
+
+.framworksCardList {
+  margin-left: 50px;
+  margin-bottom: 53px;
+  margin-right: 121px;
+}
+
+.skillCardList {
+  margin-left: 50px;
+  margin-bottom: 53px;
+  margin-right: 151px;
+}
+
+.contactMe {
+  background-color: #f9f9fa;
+}
+
+#formSection {
+  margin: 32px 14px 64px 18px;
+}
+
+#formSection form {
+  margin-bottom: 0;
+}
+
+#formSection h2 {
+  margin: 0 39px 32px 0;
+}
+
+#formSection p {
+  margin: 0 0 32px 0;
+}
+
+#formSection ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: row;
+  border-radius: 4px;
+  border: 1px solid #dfdfe0;
+  font-size: 16px;
+  position: relative;
+  margin-bottom: 8px;
+  background-color: white;
+}
+
+.inputDiv:hover {
+  border: 1px solid #1a2236;
+}
+
+input {
+  border-style: none;
+  border: none;
+  text-indent: 16px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 23px 0 8px 0;
+  width: 100%;
+}
+
+input:focus {
+  outline: 0;
+}
+
+label {
+  text-align: start;
+  position: absolute;
+  text-indent: 16px;
+  margin: 4px 217px 0 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #7d7c84;
+}
+
+#message {
+  border-radius: 4px;
+  border: 1px solid #dfdfe0;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  text-indent: 16px;
+  padding-top: 15px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+#message:focus {
+  outline: 0;
+}
+
+#message:hover {
+  border: 1px solid #1a2236;
+}
+
+#formSection .btn {
+  width: 100%;
+}
+
+#contactFooter {
+  padding-top: 32px;
+  padding-bottom: 40px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #1a2236;
+}
+
+#links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+}
+
+.myResume {
+  background-color: #1a2236;
+  color: #98dede;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: none;
+  margin-bottom: 32px;
+  margin-right: 124px;
+  padding: 0;
+}
+
+.btnTextResume {
+  margin: 0;
+}
+
+.btnDownload {
+  display: flex;
+  margin-left: 17px;
+}
+
+#hide {
+  display: none;
+}
+
+#hideBorder {
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: stretch;
+    width: auto;
+  }
+
+  .headerv,
+  .menu {
+    display: none;
+  }
+
+  #mainHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: initial;
+    width: 100%;
+    box-shadow: 0 0.5px 0 #dddfe6;
+  }
+
+  #mainHeader ul {
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    list-style: none;
+    padding: 0;
+    margin-top: 38px;
+    margin-bottom: 38px;
+  }
+
+  #mainHeader ul button {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    border: none;
+    background-color: inherit;
+    transition-property: font-size, font-weigh;
+    transition-duration: 0.5s, 0.5s;
+    transition-delay: 0s;
+  }
+
+  #item2 .projInfo button {
+    margin: 0;
+  }
+
+  #mainHeader ul button:hover {
+    box-shadow: 0 1px #1a2236;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .mnuBtn {
+    padding: 0;
+    margin: 0 50 0 0;
+  }
+
+  #lastBtn {
+    padding: 0;
+    margin: 0 0 0 0;
+  }
+
+  .firstSection {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .firstSection .btn {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .foterv {
+    display: flex;
+    background-image: url("https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/image-geometry_1.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: top;
+    width: 48.75%;
+    height: inherit;
+    margin-top: 0;
+  }
+
+  #dataCo {
+    padding-right: 94px;
+  }
+
+  .midSection {
+    width: 40.25%;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-left: 0;
+    margin-top: 192px;
+    margin-right: 0;
+    padding-left: 11%;
+  }
+
+  .midHeader,
+  .pMidSection {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 60px;
+    flex: none;
+    width: auto;
+  }
+
+  .midSection .startCoText {
+    margin-right: 0;
+    width: 52%;
+  }
+
+  h1,
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 100%;
+    letter-spacing: -1;
+    color: #1a2236;
+  }
+
+  .foterMid {
+    align-self: flex-end;
+    background-image: url("https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/image_dots.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 175px;
+    width: 175px;
+    margin-left: 0;
+    margin-top: 17px;
+  }
+
+  .works {
+    width: inherit;
+    margin-top: 209px;
+  }
+
+  .works .btn:hover {
+    background-color: white;
+    color: #1a2236;
+    filter: invert(100%);
+    border: 1px solid black;
+  }
+
+  .works .btn:active {
+    background-color: white;
+    color: #1a2236;
+    filter: invert(100%);
+    border: 2px solid black;
+  }
+
+  .projectsContainer {
+    position: relative;
+    display: grid;
+    grid-template-columns: 32.29% 1.04% 22.22% 12.15% 32.3%;
+    grid-template-rows: 33.96% 21.3% 28.3% 16.44%;
+    justify-content: stretch;
+    align-content: stretch;
+    width: inherit;
+  }
+
+  #item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  #worksV1 {
+    background-image: url(https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/w-image_dots.png);
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .worksHeader {
+    position: relative;
+    text-align: end;
+    margin: 0;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+  }
+
+  #item2 {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    position: relative;
+  }
+
+  #item2 .infoBox {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    height: 63%;
+  }
+
+  #item2 .projInfo {
+    margin-top: 60px;
+    margin-left: 60px;
+  }
+
+  #item2 .projInfo h3 {
+    margin: 0;
+    margin-bottom: 34px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80%;
+  }
+
+  #item2 .projInfo ul {
+    margin: 0;
+    width: 65%;
+    margin-bottom: 60px;
+  }
+
+  #item2 .projInfo ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .btnProj {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1a2236;
+    background-color: white;
+  }
+
+  .btnIcon {
+    background-color: black;
+    color: white;
+    filter: invert(100%);
+  }
+
+  #item2 .projInfo .lang1 {
+    margin-left: 0;
+  }
+
+  #item3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    align-items: flex-end;
+  }
+
+  #item3 .infoBox {
+    display: none;
+  }
+
+  #item4 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url(https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/w-image-geometry_1.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+
+  #item5 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  #item5 .infoBox {
+    display: none;
+  }
+
+  #item6 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  #item6 .infoBox {
+    display: none;
+  }
+
+  #item7 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url(https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/w-image-geometry_2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom, right;
+  }
+
+  #item8 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-image: url(https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/w-image-geometry_3.png);
+    background-repeat: no-repeat;
+  }
+
+  #item9 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-image: url(https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/w-image-geometry_4.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+  }
+
+  #item10 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+
+  #item10 .infoBox {
+    display: none;
+  }
+
+  #itemFlow {
+    position: absolute;
+    right: 0;
+    top: 620px;
+    display: grid;
+    width: 32.3%;
+  }
+
+  #itemFlow .infoBox {
+    order: 1;
+  }
+
+  #itemFlow .imgContainer {
+    order: 2;
+    width: -webkit-fill-available;
+  }
+
+  .aboutMyself {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .aboutSection {
+    flex-direction: row;
+    margin-left: 0;
+    margin-top: 216px;
+    margin-bottom: 150px;
+    margin-right: 0;
+  }
+
+  #aboutP2 {
+    order: 1;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  #aboutP1 {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+  }
+
+  .aboutHeader {
+    margin-top: 28px;
+    margin-right: 151px;
+    margin-bottom: 30px;
+    margin-left: 96px;
+  }
+
+  .pabout {
+    margin-top: 0;
+    margin-bottom: 42px;
+    margin-left: 96px;
+  }
+
+  .myCv {
+    margin-right: 192px;
+    margin-left: 96px;
+    width: initial;
+  }
+
+  .btnTextGet {
+    margin-top: 22px;
+    margin-bottom: 21px;
+    margin-left: 55px;
+  }
+
+  .btnIconDownload {
+    margin-right: 55px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    margin-left: 24px;
+  }
+
+  .aboutCards,
+  .framworksCard,
+  .skillsCard {
+    margin: 0;
+  }
+
+  .aboutVisual {
+    background-image: url(https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/image_dots_with_teal.png);
+    margin-top: 75px;
+    margin-left: 67px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .contactMe {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #footerHeader {
+    display: initial;
+    justify-content: initial;
+    height: auto;
+    position: absolute;
+  }
+
+  .footerHeader {
+    background-image: url("https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/image-geometry_6.png");
+    background-color: #f9f9fa;
+    background-position: left;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 351px;
+    width: 263px;
+  }
+
+  #formSection {
+    margin: 135px 446px 0 446px;
+  }
+
+  #formSection h2 {
+    margin: 0 0 40px 0;
+  }
+
+  #formSection p {
+    margin: 0 0 60px 0;
+  }
+
+  #message {
+    border-radius: 4px;
+    border: 1px solid #dfdfe0;
+    position: relative;
+    width: 100%;
+    margin-top: 22px;
+    margin-bottom: 40px;
+    text-indent: 16px;
+    padding-top: 15px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  #formSection .btn {
+    align-self: center;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+  }
+
+  #formSection .startCoText {
+    padding: 22px 42px 22px 42px;
+  }
+
+  .inputDiv {
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    position: relative;
+    margin-bottom: 8px;
+    background-color: #f9f9fa;
+  }
+
+  input {
+    border-style: none;
+    border: 1px solid #dfdfe0;
+    text-indent: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1a2236;
+    margin: 23px 0 8px 0;
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  #hide {
+    display: initial;
+  }
+
+  #contactInGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 35px;
+  }
+
+  label {
+    text-indent: 0;
+    margin: 0;
+  }
+
+  .inputDiv:hover {
+    border: none;
+  }
+
+  input:hover {
+    border: 1px solid #1a2236;
+  }
+
+  #contactFooter {
+    padding: 48px 160px 48px 160px;
+  }
+
+  #footerContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .myResume {
+    background-color: #1a2236;
+    color: #98dede;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: none;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  #links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    column-gap: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .footerV {
+    background-image: url(https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/image-geometry_7.png);
+    width: 351px;
+    height: 351px;
+    position: relative;
+    z-index: 2;
+    align-self: flex-end;
+    justify-self: end;
+    background-position: left;
+    float: right;
+  }
+}
