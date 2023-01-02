@@ -23,10 +23,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio] <a name="about-project"></a>
+# 📖 [Personal Portfolio] <a name="about-project"></a>
 
 
-**[Portfolio]** Is a portfolio website that runs smoothly on different devices and screen sizes(Current design is for mobile only).
+**[Personal Portfolio]** Is a portfolio website that runs smoothly on different devices and screen sizes(Current design is for mobile only).
 
 ## 🛠 Built With <a name="built-with"></a>
 
