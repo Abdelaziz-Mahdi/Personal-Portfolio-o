@@ -3,6 +3,8 @@ body {
   flex-direction: column;
   margin: 0;
   height: auto;
+  position: static;
+  overflow: auto;
 }
 
 #mBody {
