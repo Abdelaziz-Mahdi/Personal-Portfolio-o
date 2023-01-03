@@ -4,11 +4,14 @@ body {
   margin: 0;
   height: auto;
 }
+  
+
+
 
 #mainHeader {
   display: flex;
   justify-content: space-between;
-  height: 74px;
+  height: 74;
 }
 
 #mainHeader ul {
