@@ -23,10 +23,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio] <a name="about-project"></a>
+# 📖 [Personal Portfolio] <a name="about-project"></a>
 
 
-**[Portfolio]** Is a portfolio website that runs smoothly on different devices and screen sizes(Current design is for mobile only).
+**[Personal Portfolio]** Is a portfolio website that runs smoothly on different devices and screen sizes(Current design is for mobile only).
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -64,11 +64,15 @@ This is an activity called Set up a 'portfolio-website' project to test the foll
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 **Abdelaziz Mohamed**
+👤 **Abdelaziz Ali**
 
 - GitHub: [@Abdelaziz-Ali](https://github.com/Abdelaziz-Ali)
 - Twitter: [@AbdelazizDV](https://twitter.com/AbdelazizDV)
 - LinkedIn: [in/abdelaziz-ali-dev](https://www.linkedin.com/in/abdelaziz-ali-dev)
+
+👤 **Jakaria Jishan**
+
+- GitHub: [@JakariaJishan](https://github.com/JakariaJishan)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,7 +81,6 @@ This is an activity called Set up a 'portfolio-website' project to test the foll
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Mobile menu]**
 - [ ] **[Details modal]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

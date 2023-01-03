@@ -7,18 +7,63 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+
     <title>portfolio-website</title>
   </head>
 
-  <body>
+  <body id="ani">
+    <section id="mBody">
+      <header id="mHeader">
+        <div id="mHeaderV"></div>
+        <button id="mMenu" title="close" type="button">
+          <img alt="close button" src="./png/Union.svg" />
+        </button>
+      </header>
+      <section id="mHeading">
+        <nav>
+          <ul>
+            <li>
+              <a id="mBtnHello" type="button" title="Hello">Hello</a>
+            </li>
+            <li>
+              <a
+                id="mBtnPortfolio"
+                type="button"
+                title="Portfolio"
+                href="#works"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a id="mBtnAbout" type="button" title="About" href="#aboutMyself"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                id="mBtnContact"
+                type="button"
+                title="Contact"
+                href="#contactMe"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <footer>
+        <div id="mFooterV"></div>
+      </footer>
+    </section>
+
     <header id="mainHeader">
       <div class="headerv"></div>
       <nav>
-        <button class="menu" aria-label="menu" type="button">
+        <button id="menu" aria-label="menu" type="button">
           <div class="strip"></div>
           <div class="strip"></div>
           <div class="strip"></div>
@@ -31,6 +76,7 @@
         </ul>
       </nav>
     </header>
+
     <section class="firstSection">
       <div class="midSection">
         <div id="dataCo">
@@ -50,7 +96,7 @@
       </div>
       <div class="foterv"></div>
     </section>
-    <section class="works">
+    <section id="works">
       <div class="projectsContainer">
         <div id="item1">
           <h2 class="worksHeader">Projects</h2>
@@ -58,7 +104,7 @@
         </div>
         <div id="item2" class="firstProj">
           <div class="imgContainer">
-            <img src="https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/Rectangle1.png" alt="laptop-human-hands" />
+            <img src="./png/Rectangle1.png" alt="laptop-human-hands" />
           </div>
           <div class="infoBox">
             <div class="projInfo">
@@ -71,7 +117,7 @@
               <button class="btn btnProj">
                 <div class="btnText">See this project</div>
                 <div class="btnIcon">
-                  <img src="https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/ArrowR.png" alt="arrow-icon" />
+                  <img src="./png/ArrowR.png" alt="arrow-icon" />
                 </div>
               </button>
             </div>
@@ -79,7 +125,7 @@
         </div>
         <div id="item3" class="firstProj">
           <div class="imgContainer">
-            <img src="https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/Rectangle2.png" alt="laptop-human-hands" />
+            <img src="./png/Rectangle2.png" alt="laptop-human-hands" />
           </div>
           <div class="infoBox">
             <div class="projInfo">
@@ -92,7 +138,7 @@
               <button class="btn btnProj">
                 <div class="btnText">See this project</div>
                 <div class="btnIcon">
-                  <img src="https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/ArrowR.png" alt="arrow-icon" />
+                  <img src="./png/ArrowR.png" alt="arrow-icon" />
                 </div>
               </button>
             </div>
@@ -101,7 +147,7 @@
         <div id="item4"></div>
         <div id="item6" class="firstProj">
           <div class="imgContainer">
-            <img src="https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/Rectangle3.png" alt="laptop-human-hands" />
+            <img src="./png/Rectangle3.png" alt="laptop-human-hands" />
           </div>
           <div class="infoBox">
             <div class="projInfo">
@@ -114,7 +160,7 @@
               <button class="btn btnProj">
                 <div class="btnText">See this project</div>
                 <div class="btnIcon">
-                  <img src="https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/ArrowR.png" alt="arrow-icon" />
+                  <img src="./png/ArrowR.png" alt="arrow-icon" />
                 </div>
               </button>
             </div>
@@ -125,7 +171,7 @@
         <div id="item9"></div>
         <div id="item10" class="firstProj">
           <div class="imgContainer">
-            <img src="https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/Rectangle4.png" alt="laptop-human-hands" />
+            <img src="./png/Rectangle4.png" alt="laptop-human-hands" />
           </div>
           <div class="infoBox">
             <div class="projInfo">
@@ -138,7 +184,7 @@
               <button class="btn btnProj">
                 <div class="btnText">See this project</div>
                 <div class="btnIcon">
-                  <img src="https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/ArrowR.png" alt="arrow-icon" />
+                  <img src="./png/ArrowR.png" alt="arrow-icon" />
                 </div>
               </button>
             </div>
@@ -146,7 +192,7 @@
         </div>
         <div id="itemFlow" class="firstProj">
           <div class="imgContainer">
-            <img src="https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/Rectangle5.png" alt="laptop-human-hands" />
+            <img src="./png/Rectangle5.png" alt="laptop-human-hands" />
           </div>
           <div class="infoBox">
             <div class="projInfo">
@@ -159,7 +205,7 @@
               <button class="btn btnProj">
                 <div class="btnText">See this project</div>
                 <div class="btnIcon">
-                  <img src="https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/ArrowR.png" alt="arrow-icon" />
+                  <img src="./png/ArrowR.png" alt="arrow-icon" />
                 </div>
               </button>
             </div>
@@ -167,7 +213,7 @@
         </div>
         <div id="item5" class="firstProj">
           <div class="imgContainer">
-            <img src="https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/Rectangle6.png" alt="laptop-human-hands" />
+            <img src="./png/Rectangle6.png" alt="laptop-human-hands" />
           </div>
           <div class="infoBox">
             <div class="projInfo">
@@ -180,7 +226,7 @@
               <button class="btn btnProj">
                 <div class="btnText">See this project</div>
                 <div class="btnIcon">
-                  <img src="https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/ArrowR.png" alt="arrow-icon" />
+                  <img src="./png/ArrowR.png" alt="arrow-icon" />
                 </div>
               </button>
             </div>
@@ -188,7 +234,7 @@
         </div>
       </div>
     </section>
-    <section class="aboutMyself">
+    <section id="aboutMyself">
       <div class="aboutSection">
         <div id="aboutP1">
           <h2 class="aboutHeader">About</h2>
@@ -202,7 +248,7 @@
           <button class="btn myCv">
             <div class="btnTextGet">Get my CV</div>
             <div class="btnIconDownload">
-              <img src="https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/ic_download.png" alt="download-icon" />
+              <img src="./png/ic_download.png" alt="download-icon" />
             </div>
           </button>
         </div>
@@ -240,7 +286,7 @@
         </div>
       </div>
     </section>
-    <footer class="contactMe">
+    <footer id="contactMe" class="contactMe">
       <header id="footerHeader"><div class="footerHeader"></div></header>
       <section id="formSection">
         <h2>Get started</h2>
@@ -298,49 +344,50 @@
           </ul>
         </form>
       </section>
-      <div class="footerV"></div>
+      <div id="footerV"></div>
       <footer id="contactFooter">
         <div id="footerContainer">
           <button class="myResume">
             <div class="btnTextResume">Get my Resume</div>
             <div class="btnDownload">
-              <img src="https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/ic_link_teal.png" alt="download-icon" />
+              <img src="./png/ic_link_teal.png" alt="download-icon" />
             </div>
           </button>
           <ul id="links">
             <li>
               <a aria-label="ic_stackoverflow" href=""
-                ><img src="https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/ic_stackoverflow.png" alt=""
+                ><img src="./png/ic_stackoverflow.png" alt=""
               /></a>
             </li>
             <li>
               <a aria-label="ic_github" href=""
-                ><img src="https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/ic_github.png" alt=""
+                ><img src="./png/ic_github.png" alt=""
               /></a>
             </li>
             <li>
               <a aria-label="ic_twitter" href=""
-                ><img src="https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/ic_twitter.png" alt=""
+                ><img src="./png/ic_twitter.png" alt=""
               /></a>
             </li>
             <li>
               <a aria-label="ic_linkedin" href=""
-                ><img src="https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/ic_linkedin.png" alt=""
+                ><img src="./png/ic_linkedin.png" alt=""
               /></a>
             </li>
             <li>
               <a aria-label="ic_medium" href=""
-                ><img src="https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/ic_medium.png" alt=""
+                ><img src="./png/ic_medium.png" alt=""
               /></a>
             </li>
             <li>
               <a aria-label="ic_angellist" href=""
-                ><img src="https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/ic_angellist.png" alt=""
+                ><img src="./png/ic_angellist.png" alt=""
               /></a>
             </li>
           </ul>
         </div>
       </footer>
     </footer>
+    <script src="scripts.js"></script>
   </body>
 </html>

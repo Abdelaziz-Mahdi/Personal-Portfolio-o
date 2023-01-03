@@ -3,6 +3,124 @@ body {
   flex-direction: column;
   margin: 0;
   height: auto;
+  position: static;
+  overflow: auto;
+}
+
+#mBody {
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 50%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 30%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+#mBody ul {
+  list-style: none;
+  padding: 0;
+}
+
+#mHeader {
+  height: 24vh;
+  flex-grow: 2;
+  display: flex;
+}
+
+#mHeaderV {
+  background-image: url("./png/image_geometry_menu_1.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 24vh;
+  width: 82vw;
+}
+
+#mHeading {
+  height: 46vh;
+  flex-grow: 5;
+}
+
+a,
+a:hover,
+a:visited,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+  outline: 0;
+  cursor: auto;
+}
+
+#mHeading a {
+  background: none;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 300%;
+  text-align: center;
+}
+
+#mHeading a:active {
+  background-color: #1a2236;
+  color: white;
+}
+
+#mHeading a:hover {
+  box-shadow: 0 1px #1a2236;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#mHeading nav {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#mHeading ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: inherit;
+  margin-top: 30px;
+}
+
+#mMenu {
+  height: 16px;
+  width: 16px;
+  padding: 0;
+  border: 0;
+  background: none;
+  margin: 6%;
+}
+
+#mFooterV {
+  background-image: url("./png/image_geometry_menu_2.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  height: 30vh;
+  flex-grow: 3;
 }
 
 #mainHeader {
@@ -16,7 +134,7 @@ body {
 }
 
 .headerv {
-  background-image: url("https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/geometry_1.png");
+  background-image: url("./png/geometry_1.png");
   background-color: white;
   background-position: left;
   background-repeat: no-repeat;
@@ -33,7 +151,7 @@ body {
 }
 
 .footerHeader {
-  background-image: url("https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/geometry_1.png");
+  background-image: url("./png/geometry_1.png");
   background-color: white;
   background-position: left;
   background-repeat: no-repeat;
@@ -50,7 +168,7 @@ body {
   margin: 6px;
 }
 
-.menu {
+#menu {
   height: 100%;
   padding: 0;
   margin-top: 19px;
@@ -66,9 +184,10 @@ body {
 .firstSection {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
-  height: auto;
+  min-height: calc(100vh - 74px);
 }
 
 .midSection {
@@ -133,7 +252,7 @@ p {
   padding-right: 42px;
   padding-top: 12px;
   padding-bottom: 12px;
-  width: -webkit-fill-available;
+  width: 100%;
 }
 
 .btn:hover {
@@ -152,7 +271,7 @@ p {
 
 .foterv {
   display: flex;
-  background-image: url("https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/image_geometry_2.png");
+  background-image: url("./png/image_geometry_2.png");
   background-color: white;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -162,7 +281,7 @@ p {
   width: 100%;
 }
 
-.works {
+#works {
   display: grid;
   grid-template-columns: auto;
   width: inherit;
@@ -357,7 +476,7 @@ h3 {
 .aboutCards {
   margin-bottom: 16px;
   background-color: #1c528a;
-  background-image: url(https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/ic_HT.png);
+  background-image: url("./png/ic_HT.png");
   background-size: initial;
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -368,7 +487,7 @@ h3 {
 .framworksCard {
   margin-bottom: 16px;
   background-color: #e2505c;
-  background-image: url(https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/ic_rectangle.png);
+  background-image: url("./png/ic_rectangle.png");
   background-size: initial;
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -379,7 +498,7 @@ h3 {
 .skillsCard {
   margin-bottom: 16px;
   background-color: #febf52;
-  background-image: url(https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/ic_skills.png);
+  background-image: url("./png/ic_skills.png");
   background-size: initial;
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -616,7 +735,11 @@ label {
   }
 
   .headerv,
-  .menu {
+  #menu {
+    display: none;
+  }
+
+  #mBody {
     display: none;
   }
 
@@ -666,7 +789,7 @@ label {
 
   .mnuBtn {
     padding: 0;
-    margin: 0 50 0 0;
+    margin: 0 50px 0 0;
   }
 
   #lastBtn {
@@ -686,7 +809,7 @@ label {
 
   .foterv {
     display: flex;
-    background-image: url("https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/image-geometry_1.png");
+    background-image: url("./png/image-geometry_1.png");
     background-color: white;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -731,13 +854,13 @@ label {
     font-weight: 400;
     font-size: 110px;
     line-height: 100%;
-    letter-spacing: -1;
+    letter-spacing: -1px;
     color: #1a2236;
   }
 
   .foterMid {
     align-self: flex-end;
-    background-image: url("https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/image_dots.png");
+    background-image: url("./png/image_dots.png");
     background-color: white;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -747,19 +870,32 @@ label {
     margin-top: 17px;
   }
 
-  .works {
+  #works {
     width: inherit;
     margin-top: 209px;
   }
 
-  .works .btn:hover {
+  #formSection .btn {
+    align-self: center;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+  }
+
+  #works .btn:hover {
     background-color: white;
     color: #1a2236;
     filter: invert(100%);
     border: 1px solid black;
   }
 
-  .works .btn:active {
+  #works .btn:active {
     background-color: white;
     color: #1a2236;
     filter: invert(100%);
@@ -788,7 +924,7 @@ label {
   }
 
   #worksV1 {
-    background-image: url(https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/w-image_dots.png);
+    background-image: url("./png/w-image_dots.png");
     background-repeat: no-repeat;
     width: 160px;
     height: 160px;
@@ -887,7 +1023,7 @@ label {
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-image: url(https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/w-image-geometry_1.png);
+    background-image: url("./png/w-image-geometry_1.png");
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -920,7 +1056,7 @@ label {
     grid-column-end: 6;
     grid-row-start: 3;
     grid-row-end: 4;
-    background-image: url(https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/w-image-geometry_2.png);
+    background-image: url("./png/w-image-geometry_2.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom, right;
@@ -931,7 +1067,7 @@ label {
     grid-column-end: 3;
     grid-row-start: 4;
     grid-row-end: 5;
-    background-image: url(https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/w-image-geometry_3.png);
+    background-image: url("./png/w-image-geometry_3.png");
     background-repeat: no-repeat;
   }
 
@@ -940,7 +1076,7 @@ label {
     grid-column-end: 4;
     grid-row-start: 4;
     grid-row-end: 5;
-    background-image: url(https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/w-image-geometry_4.png);
+    background-image: url("./png/w-image-geometry_4.png");
     background-repeat: no-repeat;
     background-position: 100% 0%;
   }
@@ -970,10 +1106,10 @@ label {
 
   #itemFlow .imgContainer {
     order: 2;
-    width: -webkit-fill-available;
+    width: 100%;
   }
 
-  .aboutMyself {
+  #aboutMyself {
     display: flex;
     width: 100%;
     justify-content: space-around;
@@ -1038,7 +1174,7 @@ label {
   }
 
   .aboutVisual {
-    background-image: url(https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/image_dots_with_teal.png);
+    background-image: url("./png/image_dots_with_teal.png");
     margin-top: 75px;
     margin-left: 67px;
     background-repeat: no-repeat;
@@ -1058,7 +1194,7 @@ label {
   }
 
   .footerHeader {
-    background-image: url("https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/image-geometry_6.png");
+    background-image: url("./png/image-geometry_6.png");
     background-color: #f9f9fa;
     background-position: left;
     background-repeat: no-repeat;
@@ -1094,19 +1230,6 @@ label {
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-  }
-
-  #formSection .btn {
-    align-self: center;
-    width: auto;
-    margin-right: auto;
-    margin-left: auto;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    text-align: center;
   }
 
   #formSection .startCoText {
@@ -1201,8 +1324,8 @@ label {
     margin-bottom: 0;
   }
 
-  .footerV {
-    background-image: url(https://raw.githubusercontent.com/Abdelaziz-Ali/Portfolio/main/.png/image-geometry_7.png);
+  #footerV {
+    background-image: url("./png/image-geometry_7.png");
     width: 351px;
     height: 351px;
     position: relative;
